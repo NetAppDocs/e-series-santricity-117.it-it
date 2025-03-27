@@ -14,7 +14,7 @@ summary: 'Per una maggiore sicurezza in una rete iSCSI, è possibile impostare l
 [role="lead"]
 Per una maggiore sicurezza in una rete iSCSI, è possibile impostare l'autenticazione tra controller (destinazioni) e host (iniziatori).
 
-System Manager utilizza il metodo Challenge Handshake Authentication Protocol (CHAP), che convalida l'identità di destinazioni e iniziatori durante il collegamento iniziale. L'autenticazione si basa su una chiave di sicurezza condivisa denominata _CHAP secret_.
+Il Gestore di sistema di SANtricity utilizza il metodo CHAP (Challenge Handshake Authentication Protocol), che convalida l'identità delle destinazioni e degli iniziatori durante il collegamento iniziale. L'autenticazione si basa su una chiave di sicurezza condivisa denominata _CHAP secret_.
 
 .Prima di iniziare
 È possibile impostare il segreto CHAP per gli iniziatori (host iSCSI) prima o dopo aver impostato il segreto CHAP per le destinazioni (controller). Prima di seguire le istruzioni di questa attività, è necessario attendere che gli host abbiano stabilito prima una connessione iSCSI, quindi impostare il segreto CHAP sui singoli host. Una volta effettuate le connessioni, i nomi IQN degli host e i relativi segreti CHAP vengono elencati nella finestra di dialogo per l'autenticazione iSCSI (descritta in questa attività) e non è necessario immetterli manualmente.
